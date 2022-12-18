@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "lint": "eslint --ext .vue,.ts,.js,.mjs .",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "4.6.1",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxtjs/ionic": "^0.8.0",
+    "@nuxtjs/tailwindcss": "^6.1.3",
+    "eslint": "^8.30.0",
+    "nuxt": "3.0.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@capacitor/app": "4.1.1",
+    "@capacitor/core": "4.6.1",
+    "@capacitor/haptics": "4.1.0",
+    "@capacitor/keyboard": "4.1.0",
+    "@capacitor/status-bar": "4.1.1"
+  }
+}
